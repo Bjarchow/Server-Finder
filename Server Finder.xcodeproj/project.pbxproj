@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D326DCCA1910209A007EFBAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326DCC91910209A007EFBAE /* Foundation.framework */; };
+		D326DCCC1910209A007EFBAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326DCCB1910209A007EFBAE /* CoreGraphics.framework */; };
+		D326DCCE1910209A007EFBAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326DCCD1910209A007EFBAE /* UIKit.framework */; };
+		D326DCD41910209A007EFBAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D326DCD21910209A007EFBAE /* InfoPlist.strings */; };
+		D326DCD61910209A007EFBAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D326DCD51910209A007EFBAE /* main.m */; };
+		D326DCDA1910209A007EFBAE /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D326DCD91910209A007EFBAE /* SFAppDelegate.m */; };
+		D326DCDD1910209A007EFBAE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326DCDB1910209A007EFBAE /* Main_iPhone.storyboard */; };
+		D326DCE01910209A007EFBAE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326DCDE1910209A007EFBAE /* Main_iPad.storyboard */; };
+		D326DCE31910209A007EFBAE /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D326DCE21910209A007EFBAE /* SFViewController.m */; };
+		D326DCE51910209A007EFBAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D326DCE41910209A007EFBAE /* Images.xcassets */; };
+		D326DCEC1910209A007EFBAE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326DCEB1910209A007EFBAE /* XCTest.framework */; };
+		D326DCED1910209A007EFBAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326DCC91910209A007EFBAE /* Foundation.framework */; };
+		D326DCEE1910209A007EFBAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326DCCD1910209A007EFBAE /* UIKit.framework */; };
+		D326DCF61910209A007EFBAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D326DCF41910209A007EFBAE /* InfoPlist.strings */; };
+		D326DCF81910209A007EFBAE /* Server_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D326DCF71910209A007EFBAE /* Server_FinderTests.m */; };
+		D326DD031910271F007EFBAE /* ServerFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D326DD021910271F007EFBAE /* ServerFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D326DCEF1910209A007EFBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D326DCBE1910209A007EFBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D326DCC51910209A007EFBAE;
+			remoteInfo = "Server Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D326DCC61910209A007EFBAE /* Server Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D326DCC91910209A007EFBAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D326DCCB1910209A007EFBAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D326DCCD1910209A007EFBAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D326DCD11910209A007EFBAE /* Server Finder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Server Finder-Info.plist"; sourceTree = "<group>"; };
+		D326DCD31910209A007EFBAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D326DCD51910209A007EFBAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D326DCD71910209A007EFBAE /* Server Finder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Server Finder-Prefix.pch"; sourceTree = "<group>"; };
+		D326DCD81910209A007EFBAE /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		D326DCD91910209A007EFBAE /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		D326DCDC1910209A007EFBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D326DCDF1910209A007EFBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D326DCE11910209A007EFBAE /* SFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		D326DCE21910209A007EFBAE /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		D326DCE41910209A007EFBAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D326DCEA1910209A007EFBAE /* Server FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Server FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D326DCEB1910209A007EFBAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D326DCF31910209A007EFBAE /* Server FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Server FinderTests-Info.plist"; sourceTree = "<group>"; };
+		D326DCF51910209A007EFBAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D326DCF71910209A007EFBAE /* Server_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server_FinderTests.m; sourceTree = "<group>"; };
+		D326DD011910271F007EFBAE /* ServerFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerFinder.h; sourceTree = "<group>"; };
+		D326DD021910271F007EFBAE /* ServerFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerFinder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D326DCC31910209A007EFBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326DCCC1910209A007EFBAE /* CoreGraphics.framework in Frameworks */,
+				D326DCCE1910209A007EFBAE /* UIKit.framework in Frameworks */,
+				D326DCCA1910209A007EFBAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326DCE71910209A007EFBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326DCEC1910209A007EFBAE /* XCTest.framework in Frameworks */,
+				D326DCEE1910209A007EFBAE /* UIKit.framework in Frameworks */,
+				D326DCED1910209A007EFBAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D326DCBD1910209A007EFBAE = {
+			isa = PBXGroup;
+			children = (
+				D326DCCF1910209A007EFBAE /* Server Finder */,
+				D326DCF11910209A007EFBAE /* Server FinderTests */,
+				D326DCC81910209A007EFBAE /* Frameworks */,
+				D326DCC71910209A007EFBAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D326DCC71910209A007EFBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D326DCC61910209A007EFBAE /* Server Finder.app */,
+				D326DCEA1910209A007EFBAE /* Server FinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D326DCC81910209A007EFBAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D326DCC91910209A007EFBAE /* Foundation.framework */,
+				D326DCCB1910209A007EFBAE /* CoreGraphics.framework */,
+				D326DCCD1910209A007EFBAE /* UIKit.framework */,
+				D326DCEB1910209A007EFBAE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D326DCCF1910209A007EFBAE /* Server Finder */ = {
+			isa = PBXGroup;
+			children = (
+				D326DCD81910209A007EFBAE /* SFAppDelegate.h */,
+				D326DCD91910209A007EFBAE /* SFAppDelegate.m */,
+				D326DCDB1910209A007EFBAE /* Main_iPhone.storyboard */,
+				D326DCDE1910209A007EFBAE /* Main_iPad.storyboard */,
+				D326DCE11910209A007EFBAE /* SFViewController.h */,
+				D326DCE21910209A007EFBAE /* SFViewController.m */,
+				D326DD011910271F007EFBAE /* ServerFinder.h */,
+				D326DD021910271F007EFBAE /* ServerFinder.m */,
+				D326DCE41910209A007EFBAE /* Images.xcassets */,
+				D326DCD01910209A007EFBAE /* Supporting Files */,
+			);
+			path = "Server Finder";
+			sourceTree = "<group>";
+		};
+		D326DCD01910209A007EFBAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D326DCD11910209A007EFBAE /* Server Finder-Info.plist */,
+				D326DCD21910209A007EFBAE /* InfoPlist.strings */,
+				D326DCD51910209A007EFBAE /* main.m */,
+				D326DCD71910209A007EFBAE /* Server Finder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D326DCF11910209A007EFBAE /* Server FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D326DCF71910209A007EFBAE /* Server_FinderTests.m */,
+				D326DCF21910209A007EFBAE /* Supporting Files */,
+			);
+			path = "Server FinderTests";
+			sourceTree = "<group>";
+		};
+		D326DCF21910209A007EFBAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D326DCF31910209A007EFBAE /* Server FinderTests-Info.plist */,
+				D326DCF41910209A007EFBAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D326DCC51910209A007EFBAE /* Server Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D326DCFB1910209A007EFBAE /* Build configuration list for PBXNativeTarget "Server Finder" */;
+			buildPhases = (
+				D326DCC21910209A007EFBAE /* Sources */,
+				D326DCC31910209A007EFBAE /* Frameworks */,
+				D326DCC41910209A007EFBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Server Finder";
+			productName = "Server Finder";
+			productReference = D326DCC61910209A007EFBAE /* Server Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D326DCE91910209A007EFBAE /* Server FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D326DCFE1910209A007EFBAE /* Build configuration list for PBXNativeTarget "Server FinderTests" */;
+			buildPhases = (
+				D326DCE61910209A007EFBAE /* Sources */,
+				D326DCE71910209A007EFBAE /* Frameworks */,
+				D326DCE81910209A007EFBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D326DCF01910209A007EFBAE /* PBXTargetDependency */,
+			);
+			name = "Server FinderTests";
+			productName = "Server FinderTests";
+			productReference = D326DCEA1910209A007EFBAE /* Server FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D326DCBE1910209A007EFBAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Brian Jarchow";
+				TargetAttributes = {
+					D326DCE91910209A007EFBAE = {
+						TestTargetID = D326DCC51910209A007EFBAE;
+					};
+				};
+			};
+			buildConfigurationList = D326DCC11910209A007EFBAE /* Build configuration list for PBXProject "Server Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D326DCBD1910209A007EFBAE;
+			productRefGroup = D326DCC71910209A007EFBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D326DCC51910209A007EFBAE /* Server Finder */,
+				D326DCE91910209A007EFBAE /* Server FinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D326DCC41910209A007EFBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326DCE01910209A007EFBAE /* Main_iPad.storyboard in Resources */,
+				D326DCE51910209A007EFBAE /* Images.xcassets in Resources */,
+				D326DCDD1910209A007EFBAE /* Main_iPhone.storyboard in Resources */,
+				D326DCD41910209A007EFBAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326DCE81910209A007EFBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326DCF61910209A007EFBAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D326DCC21910209A007EFBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326DD031910271F007EFBAE /* ServerFinder.m in Sources */,
+				D326DCD61910209A007EFBAE /* main.m in Sources */,
+				D326DCE31910209A007EFBAE /* SFViewController.m in Sources */,
+				D326DCDA1910209A007EFBAE /* SFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326DCE61910209A007EFBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326DCF81910209A007EFBAE /* Server_FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D326DCF01910209A007EFBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D326DCC51910209A007EFBAE /* Server Finder */;
+			targetProxy = D326DCEF1910209A007EFBAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D326DCD21910209A007EFBAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D326DCD31910209A007EFBAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D326DCDB1910209A007EFBAE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D326DCDC1910209A007EFBAE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D326DCDE1910209A007EFBAE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D326DCDF1910209A007EFBAE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D326DCF41910209A007EFBAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D326DCF51910209A007EFBAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D326DCF91910209A007EFBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D326DCFA1910209A007EFBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D326DCFC1910209A007EFBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Server Finder/Server Finder-Prefix.pch";
+				INFOPLIST_FILE = "Server Finder/Server Finder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D326DCFD1910209A007EFBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Server Finder/Server Finder-Prefix.pch";
+				INFOPLIST_FILE = "Server Finder/Server Finder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D326DCFF1910209A007EFBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Server Finder.app/Server Finder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Server Finder/Server Finder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Server FinderTests/Server FinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D326DD001910209A007EFBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Server Finder.app/Server Finder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Server Finder/Server Finder-Prefix.pch";
+				INFOPLIST_FILE = "Server FinderTests/Server FinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D326DCC11910209A007EFBAE /* Build configuration list for PBXProject "Server Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326DCF91910209A007EFBAE /* Debug */,
+				D326DCFA1910209A007EFBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D326DCFB1910209A007EFBAE /* Build configuration list for PBXNativeTarget "Server Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326DCFC1910209A007EFBAE /* Debug */,
+				D326DCFD1910209A007EFBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D326DCFE1910209A007EFBAE /* Build configuration list for PBXNativeTarget "Server FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326DCFF1910209A007EFBAE /* Debug */,
+				D326DD001910209A007EFBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D326DCBE1910209A007EFBAE /* Project object */;
+}
